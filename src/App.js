@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import usersData from "./data";
 
 function App() {
-  const [users, setUsers] = useState(usersData);
+  const [users] = useState(usersData);
   const [search, setSearch] = useState("");
   const filteredUsers = users.filter(
   (user) =>
